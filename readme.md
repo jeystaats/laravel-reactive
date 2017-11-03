@@ -4,13 +4,15 @@
 ## About Laravel- Reactive
 
 This is an simple chatapp made for the Laravel-Meetup in Groningen
-Simple fill in your .env your pusher keys and you are ready to set
+Simple fill in your pusher keys in your `.env` file, set your broadcast driver to `pusher` and you are ready.
 
-`
+```
+BROADCAST_DRIVER=pusher
+
 PUSHER_APP_ID=###
 PUSHER_APP_KEY=###
 PUSHER_APP_SECRET=###
-`
+```
 
 # Credits
 This project has been setup by @petericebear
